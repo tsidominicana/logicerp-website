@@ -1,0 +1,16 @@
+:root{
+/* The product is square. Radii exist only to soften containers, never data. */
+--r-0:0; /* @kind radius */
+--r-1:2px; /* inputs, chips, buttons */
+--r-2:3px; /* cards, panels, dialogs */
+--r-3:5px; /* modal shell */
+--r-pill:999px; /* status pills only */
+
+--bw-hair:1px; /* @kind spacing */
+--bw-thick:2px; /* @kind spacing */
+--border-hair:var(--bw-hair) solid var(--border-default); /* @kind other */
+--border-hair-subtle:var(--bw-hair) solid var(--border-subtle); /* @kind other */
+--border-field-line:var(--bw-hair) solid var(--border-field); /* @kind other */
+--border-grid-line:var(--bw-hair) solid var(--border-subtle); /* @kind other */
+--rule-strong:var(--bw-thick) solid var(--n-800); /* @kind other */ /* totals rule, print rules */
+}

@@ -1,0 +1,8 @@
+# Export empaquetado del sistema de diseño: redundante, el sitio ya está
+# desplegado en la raíz de este repo. No debe publicarse.
+*.zip
+
+# Basura del sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store

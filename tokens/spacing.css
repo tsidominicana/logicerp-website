@@ -1,0 +1,35 @@
+:root{
+/* 2px base step. The legacy forms are laid out in twips at 4px gutters
+   (60 twips) with 21px rows (315 twips); the scale keeps those exact. */
+--sp-0:0; /* @kind spacing */
+--sp-1:2px;--sp-2:4px;--sp-3:6px;--sp-4:8px;--sp-5:10px;
+--sp-6:12px;--sp-8:16px;--sp-10:20px;--sp-12:24px;--sp-16:32px;--sp-20:40px;
+
+/* Control geometry — the density contract. Do not inflate these. */
+--ctl-h-sm:21px;    /* legacy label/field row height (315 twips) */
+--ctl-h:26px;       /* standard input / button height */
+--ctl-h-lg:32px;    /* toolbar primary button */
+--ctl-pad-x:8px;
+--ctl-pad-x-sm:6px;
+--label-w:96px;     /* label-chip column width in transactional forms */
+--label-w-wide:120px;
+
+--row-h:22px;       /* data grid row */
+--row-h-compact:19px;
+--grid-head-h:22px;
+--grid-cell-pad-x:6px;
+
+--gutter:4px;       /* between a label chip and its control */
+--field-gap:3px;    /* between stacked form rows */
+--group-gap:8px;    /* between field groups */
+--panel-pad:8px;
+--card-pad:12px;
+--section-gap:12px;
+
+--toolbar-h:44px;
+--statusbar-h:22px;
+--header-band-h:52px;
+--sidebar-w:216px;
+--sidebar-w-collapsed:44px;
+--tabstrip-h:24px;
+}

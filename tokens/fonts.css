@@ -1,0 +1,8 @@
+/* LogicERP v3 — webfonts.
+   Candara is the product's real display face (module splashes, report titles) and
+   is now self-hosted from the file TSI supplied. Source Sans 3 and IBM Plex Mono
+   stay on the Google CDN: they stand in for the Windows system faces the desktop
+   product renders in (Segoe UI / Tahoma), which have no webfont. Flagged in
+   readme.md → VISUAL FOUNDATIONS. */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+@font-face{font-family:"Candara";src:url("../fonts/candara-webfont.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}

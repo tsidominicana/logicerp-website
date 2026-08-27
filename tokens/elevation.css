@@ -1,0 +1,12 @@
+:root{
+/* Elevation is used sparingly: chrome separation and overlays only.
+   Data surfaces are flat and bordered, never shadowed. */
+--sh-0:none; /* @kind shadow */
+--sh-1:0 1px 2px rgba(22,29,36,.06);                       /* card */
+--sh-2:0 1px 3px rgba(22,29,36,.10),0 1px 1px rgba(22,29,36,.04); /* toolbar/popover */
+--sh-3:0 6px 18px rgba(22,29,36,.16);                      /* dropdown, flybox */
+--sh-4:0 12px 40px rgba(22,29,36,.24);                     /* modal dialog */
+--sh-up:0 -2px 6px rgba(22,29,36,.05);                     /* sticky action bar */
+--sh-inset-field:inset 0 1px 0 rgba(22,29,36,.04);
+--scrim:rgba(22,29,36,.42); /* @kind color */
+}

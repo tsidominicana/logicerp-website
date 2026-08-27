@@ -1,0 +1,76 @@
+:root{
+/* ── Brand (TSI Dominicana) — sampled from assets/logos/tsi-dominicana.png ── */
+--tsi-slate:#466f81;--tsi-slate-dark:#35545f;--tsi-slate-darker:#263d46;--tsi-slate-mid:#5c8899;
+--tsi-slate-100:#e6edf0;--tsi-slate-200:#c8d8de;--tsi-slate-400:#8fadb9;
+--tsi-orange:#f7941d;--tsi-orange-dark:#d97a08;--tsi-orange-100:#fdefdb;--tsi-orange-200:#fbdcb0;
+
+/* ── Legacy ERP chrome, sampled pixel-exact from LogicERP v3 screenshots ──
+   Kept as named tokens so recreations stay honest. Prefer the semantic
+   aliases below in new work. */
+--erp-label-blue:#3399ff;      /* COLOR_HIGHLIGHT — field label chips */
+--erp-info-yellow:#ffffe1;     /* COLOR_INFOBK — form header band, readonly fields */
+--erp-total-yellow:#ffffc0;    /* computed / total fields */
+--erp-row-selected:#ffeb87;    /* selected grid row */
+--erp-row-flag:#ffc0c0;        /* flagged status cell (Nuevo / pendiente) */
+--erp-face:#f0f0f0;            /* toolbar + grid header face */
+--erp-face-dim:#e3e3e3;        /* status bar */
+--erp-void:#d4d0c8;            /* inactive grid canvas */
+--erp-title-active:#abc4df;    /* MDI child title bar */
+
+/* ── Neutral ramp (web tier; matches the fe-monitor admin-ui greys) ── */
+--n-0:#ffffff;--n-25:#fbfcfd;--n-50:#f4f6f8;--n-100:#eef1f4;--n-150:#e5e9ed;
+--n-200:#d7dde3;--n-300:#bcc5cd;--n-400:#94a1ab;--n-500:#6b7885;
+--n-600:#4f5b66;--n-700:#374350;--n-800:#26313b;--n-900:#161d24;
+
+/* ── Semantic status ── */
+--ok:#1c7c43;--ok-bg:#e4f4ea;--ok-border:#a9d9bc;
+--warn:#a05e00;--warn-bg:#fdf1dc;--warn-border:#f0cf94;
+--danger:#b3251e;--danger-bg:#fbe6e5;--danger-border:#eeb0ad;
+--info:#1c5c86;--info-bg:#e3f0f8;--info-border:#a8ccdf;
+--neutral-status:#4f5b66;--neutral-status-bg:#eef1f4;--neutral-status-border:#d7dde3;
+
+/* ── Semantic aliases: surfaces ── */
+--surface-app:var(--n-50);
+--surface-card:var(--n-0);
+--surface-sunken:var(--n-100);
+--surface-chrome:var(--n-0);
+--surface-toolbar:var(--n-100);
+--surface-statusbar:var(--n-150);
+--surface-nav:var(--tsi-slate-darker);
+--surface-nav-hover:var(--tsi-slate-dark);
+--surface-nav-active:var(--tsi-slate);
+--surface-header-band:var(--erp-info-yellow);
+--surface-grid-head:var(--n-100);
+--surface-grid-row-alt:var(--n-25);
+--surface-grid-row-hover:var(--tsi-slate-100);
+--surface-grid-row-selected:var(--erp-row-selected);
+--surface-totals:var(--erp-total-yellow);
+--surface-readonly:var(--erp-info-yellow);
+--surface-disabled:var(--n-100);
+
+/* ── Semantic aliases: text ── */
+--text-body:var(--n-800);
+--text-strong:var(--n-900);
+--text-muted:var(--n-500);
+--text-inverse:var(--n-0);
+--text-label:var(--n-0);            /* on the blue label chip */
+--text-link:#0b5fa5;
+--text-link-hover:#083f6e;
+--text-numeric:var(--n-900);
+--text-negative:var(--danger);
+--text-placeholder:var(--n-400);
+
+/* ── Semantic aliases: lines & accents ── */
+--border-subtle:var(--n-150);
+--border-default:var(--n-200);
+--border-strong:var(--n-300);
+--border-field:var(--n-300);
+--border-focus:var(--tsi-slate);
+--accent-primary:var(--tsi-slate);
+--accent-primary-hover:var(--tsi-slate-dark);
+--accent-primary-active:var(--tsi-slate-darker);
+--accent-secondary:var(--tsi-orange);
+--accent-secondary-hover:var(--tsi-orange-dark);
+--field-label:var(--erp-label-blue);
+--focus-ring:0 0 0 2px var(--tsi-slate-200),0 0 0 1px var(--tsi-slate);
+}

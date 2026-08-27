@@ -1,0 +1,19 @@
+/* Base reset + element defaults for LogicERP v3 surfaces. */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--surface-app);color:var(--text-body);font:var(--type-body);text-wrap:pretty;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:var(--fw-semibold);line-height:var(--lh-snug)}
+p{margin:0 0 var(--sp-4)}
+a{color:var(--text-link);text-decoration:underline;text-underline-offset:2px;transition:var(--t-hover)}
+a:hover{color:var(--text-link-hover)}
+a:focus-visible{outline:2px solid var(--border-focus);outline-offset:1px;border-radius:var(--r-1)}
+small{font-size:var(--fs-sm)}
+code,kbd,samp,pre{font-family:var(--font-mono);font-size:.92em}
+kbd{background:var(--n-100);border:var(--border-hair);border-bottom-width:2px;border-radius:var(--r-1);padding:0 4px;font-size:var(--fs-xs)}
+hr{border:0;border-top:var(--border-hair-subtle);margin:var(--sp-6) 0}
+table{border-collapse:collapse}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:none}
+[hidden]{display:none!important}
+.tabular{font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
